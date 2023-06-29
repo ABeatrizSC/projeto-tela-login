@@ -1,7 +1,7 @@
 # Projeto criando Tela de Login
  Projeto referente ao módulo 4 do curso de HTML5 e CSS3 do Curso em Vídeo.
 
- # Tecnologias utilizadas:
+<h2>Tecnologias utilizadas:</h2>
  - HTML5
  - CSS3
- - Pequeno uso de da linguagem PHP
+ - Pequeno uso da linguagem PHP
