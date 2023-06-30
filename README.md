@@ -5,7 +5,7 @@
 <h2>💻Utilização</h2>
 <p> Feito através do editor Visual Studio Code.</p>
 
-<h2>⚙Estrutura dos arquivos</h2>
+<h2>📂Estrutura dos arquivos</h2>
 <p> 
   <ul>
     <li>Pasta "Estilos": Contém os arquivos CSS. Divida em "media-query" (para dispositivos como Tablets, Desktops de Telas grandes) e "style" (para mobiles/telas pequenas)</li>
