@@ -34,7 +34,7 @@ Grandes telas: acima de 1200px */
 
 }
 
-/* Versão para Desktop e Telas grandes (768px até 992px) */
+/* Versão para Desktop e Telas grandes (992px até ...) */
 @media screen and (min-width: 992px) {
 
     body { /* Gradiente ao fundo na versão para Desktop/Telas grandes */
@@ -47,13 +47,13 @@ Grandes telas: acima de 1200px */
     }
 
     section#telaLogin > div#imagem {
-        float: left; /* Na versão para Desktop, a imagem do "prédio" ficará à esquerda */
+        float: right; /* Na versão para Desktop, a imagem do "prédio" ficará à direita */
         width: 50%; /* Largura ocupará 50% da div */
         height: 100%;
     }
 
     section#telaLogin > div#formulario {
-        float: right; /* Na versão para Desktop, o formulario ficará à direita */
+        float: left; /* Na versão para Desktop, o formulario ficará à esquerda */
         width: 50%; /* Largura ocupará 50% da div */
     }
 }
