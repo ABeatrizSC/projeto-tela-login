@@ -1,6 +1,8 @@
 # Projeto Tela de Login
 <h2>📌Sobre</h2>
-<P>Projeto desenvolvido no módulo 4 do curso de HTML5 e CSS3 do Curso em Vídeo com o intuito de aprimorar a utilização de media queries, formulários, entre outros.
+<p>Projeto desenvolvido no módulo 4 do curso de HTML5 e CSS3 do Curso em Vídeo com o intuito de aprimorar a utilização de media queries, formulários, entre outros. </br>
+</br>
+<strong> Acesse a visualização completa do Projeto Tela de Login </strong> <a href="#"> aqui</a>. </p>
 
 <h2>💻Utilização</h2>
 <p> Feito através do editor Visual Studio Code.</p>
