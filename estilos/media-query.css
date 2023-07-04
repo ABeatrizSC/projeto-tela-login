@@ -29,7 +29,7 @@ Grandes telas: acima de 1200px */
 
     section#telaLogin > div#formulario {
         float: right; /* Na versão para Tablet, o formulário ficará à direita */
-        width: 60%; /* 60% da div (complementando com os 40% da imagem*/
+        width: 60%; /* 60% da div (complementando com os 40% da imagem)*/
     }
 
 }
@@ -55,5 +55,13 @@ Grandes telas: acima de 1200px */
     section#telaLogin > div#formulario {
         float: left; /* Na versão para Desktop, o formulario ficará à esquerda */
         width: 50%; /* Largura ocupará 50% da div */
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+    
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
