@@ -32,6 +32,13 @@ Grandes telas: acima de 1200px */
         width: 60%; /* 60% da div (complementando com os 40% da imagem)*/
     }
 
+    form > input[type=submit] { 
+        width: 60%;
+    }    
+
+    form > a.botao {
+        width: 60%;
+    }
 }
 
 /* Versão para Desktop e Telas grandes (992px até ...) */
@@ -60,8 +67,16 @@ Grandes telas: acima de 1200px */
     div#formulario > h1 {
         font-size: 2em;
     }
-    
+
     div#formulario > p {
         font-size: 1.2em;
+    }
+
+    form > input[type=submit] { 
+        width: 60%;
+    }    
+
+    form > a.botao {
+        width: 60%;
     }
 }

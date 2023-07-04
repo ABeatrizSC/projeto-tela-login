@@ -36,7 +36,7 @@ section#telaLogin {
 
     background-color: #A9A5B1;
     width: 250px;
-    height: 500px;
+    height: 525px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
 
@@ -63,5 +63,78 @@ div#formulario > h1 {
 }
 
 div#formulario > p {
-    font-size: 0.9em;
+    font-size: 0.8em;
+}
+
+form > div.campo {
+    background-color: #0A1C24;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+div.campo > i {
+    color: white;
+    background-color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: #bb3f059f;
+    font-size: 1em;
+    width: calc(100% - 44px); /* realiza o calculo de 100% - o 40px de width do icon dic.campo > i (- 44px faz encaixar de maneira mais certa*/
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+   
+    transform: translateX(40px); /* rentando arrumar */
+}
+
+form > input[type=submit] { /* botao Entrar */
+    display: block;
+    font-size: 1em;
+    width: 100%; /* Largura 100% da seção telaLogin */
+    height: 40px; /* altura botao */
+    background-color: #BB3F05;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* muda seta do mouse para mãozinha ao passar por cima */
+}
+
+form > input[type=submit]:hover {
+    background-color: #8d3005;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%; /* Largura 100% da seção telaLogin */
+    height: 40px; /* altura botao */
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: white;
+    color: #BB3F05;
+    border: 1px solid #BB3F05;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: #bb3f05d7;
+    color: white;
+}
+
+form > a.botao > i {
+    font-size: 0.8em;
 }
