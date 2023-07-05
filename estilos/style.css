@@ -42,7 +42,6 @@ section#telaLogin {
 
     transition: width .3s, height .3s; /* Transição ao mudar de tamanho de tela */
     transition-timing-function: ease;
-    
 }
 
 section#telaLogin > div#imagem {
@@ -68,6 +67,7 @@ div#formulario > p {
 
 form > div.campo {
     background-color: #0A1C24;
+    border: 2px solid #0A1C24;
     display: block;
     width: 100%;
     height: 40px;
@@ -79,33 +79,33 @@ div.campo > label {
     display: none;
 }
 
-div.campo > i {
+div.campo > i { /* ícone */
     color: white;
-    background-color: black;
     font-size: 2em;
     width: 40px;
     padding: 5px;
 }
 
 div.campo > input {
-    background-color: #bb3f059f;
+    background-color: #ffffff;
     font-size: 1em;
-    width: calc(100% - 44px); /* realiza o calculo de 100% - o 40px de width do icon dic.campo > i (- 44px faz encaixar de maneira mais certa*/
     height: 100%;
+    width: calc(100% - 39px); /* função calcula o width através da conta de 100% - 39px (com base no width do ícone acima "i") */
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-   
-    transform: translateX(40px); /* rentando arrumar */
+    transform: translate(39px, -42px); /* move X, Y */
+    
 }
 
 form > input[type=submit] { /* botao Entrar */
     display: block;
     font-size: 1em;
+    color: white;
     width: 100%; /* Largura 100% da seção telaLogin */
     height: 40px; /* altura botao */
+    margin-top: 20px;
     background-color: #BB3F05;
-    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer; /* muda seta do mouse para mãozinha ao passar por cima */

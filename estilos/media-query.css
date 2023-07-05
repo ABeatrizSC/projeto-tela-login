@@ -19,6 +19,7 @@ Grandes telas: acima de 1200px */
     section#telaLogin {
         background-color: #e2e2e2; /* cor diferente da versao mobile */
         width: 80vw;
+        height: 400px;
     }
 
     section#telaLogin > div#imagem {
@@ -32,12 +33,19 @@ Grandes telas: acima de 1200px */
         width: 60%; /* 60% da div (complementando com os 40% da imagem)*/
     }
 
+    div#formulario > p {
+        font-size: 1em;
+        margin-bottom: 20px;
+    }
+
     form > input[type=submit] { 
         width: 60%;
+        margin: 20px auto  auto; /* Botão "entrar" no meio da tela */
     }    
 
     form > a.botao {
         width: 60%;
+        margin: 5px auto auto; /* Botão "esqueci a senha" no meio da tela */
     }
 }
 
@@ -51,6 +59,7 @@ Grandes telas: acima de 1200px */
     section#telaLogin {
         background-color: #e2e2e2; /* cor diferente da versao mobile */
         width: 950px;
+        height: 450px;
     }
 
     section#telaLogin > div#imagem {
@@ -69,14 +78,17 @@ Grandes telas: acima de 1200px */
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1.1em;
+        margin-bottom: 30px;
     }
 
     form > input[type=submit] { 
         width: 60%;
+        margin: 20px auto  auto; /* Botão "entrar" no meio da tela */
     }    
 
     form > a.botao {
         width: 60%;
+        margin: 5px auto auto; /* Botão "esqueci a senha" no meio da tela */
     }
 }
